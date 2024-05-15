@@ -7,7 +7,7 @@
   <title>Сигма сайт</title>
 </head>
 <body>
-<h1>Рандомные числа</h1>
+<h1>Рандомные числа (B&W&G)+(1-30)</h1>
 <h2><a href="https://docs.google.com/document/d/10eJ0PdbmUwdX5x76ROHM0PMp-JI6_TzPot-q0u9sE7E/edit?usp=sharing">правила</a></h2>
   <button onclick="generateRandomNumber()">Сгенерировать рандомное число</button>
   <div id="randomNumber"></div>
@@ -30,6 +30,29 @@
         randomNumberElement.textContent = 'Рандомное число (2) - ' + randomNumber;
       }
       </script>
+<h1>Рандомные числа (1-20)</h1>
+<button onclick="generateRandomNumber4()">Сгенерировать рандомное число</button>
+  <div id="randomNumber4"></div>
+<script>
+  function generateRandomNumber4() {
+    var randomNumber = Math.floor(Math.random() * 20) + 1;
+    var randomNumberElement = document.getElementById('randomNumber4');
+    randomNumberElement.textContent = 'Рандомное число - ' + randomNumber;
+  }
+ 
+</script>
+
+<h1>Рандомные числа (1-10)</h1>
+<button onclick="generateRandomNumber3()">Сгенерировать рандомное число</button>
+  <div id="randomNumber3"></div>
+<script>
+  function generateRandomNumber3() {
+    var randomNumber = Math.floor(Math.random() * 10) + 1;
+    var randomNumberElement = document.getElementById('randomNumber3');
+    randomNumberElement.textContent = 'Рандомное число - ' + randomNumber;
+  }
+ 
+</script>
 <h6>
      .
      .
