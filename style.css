@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-image: url("sjetu.PNG");
+    color: black
+  }
+  body {
+    text-align: center;
+    }
+    
+    h1, h2, h3, p {
+    text-align: center;
+    }
