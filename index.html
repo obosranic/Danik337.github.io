@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Сигма сайт</title>
+</head>
+<body>
+<h1>Рандомные числа</h1>
+<h2><a href="https://docs.google.com/document/d/10eJ0PdbmUwdX5x76ROHM0PMp-JI6_TzPot-q0u9sE7E/edit?usp=sharing">правила</a></h2>
+  <button onclick="generateRandomNumber()">Сгенерировать рандомное число</button>
+  <div id="randomNumber"></div>
+
+  <script>
+    function generateRandomNumber() {
+      var randomNumber = Math.floor(Math.random() * 30) + 1;
+      var randomNumberElement = document.getElementById('randomNumber');
+      randomNumberElement.textContent = 'Рандомное число - ' + randomNumber;
+    }
+   
+  </script>
+    <button onclick="generateRandomNumber2()">Сгенерировать рандомное число (2)</button>
+    <div id="randomNumber2"></div>
+  
+    <script>
+      function generateRandomNumber2() {
+        var randomNumber = Math.floor(Math.random() * 3) + 1;
+        var randomNumberElement = document.getElementById('randomNumber2');
+        randomNumberElement.textContent = 'Рандомное число (2) - ' + randomNumber;
+      }
+      </script>
+<h6>
+     .
+     .
+    этот сайт создан исключительно в развлекательных целях
+     .
+     .
+</h6>
+</body>
+</html>
